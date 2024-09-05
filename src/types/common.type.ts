@@ -15,7 +15,7 @@ export type TItemProps = {
 };
 
 export type THandleProps = {
-  handleShowMore: () => void;
+  handleShowMore?: () => void;
 };
 
 export type TDetailsPageProps = {
