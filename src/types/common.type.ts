@@ -13,3 +13,7 @@ export type TItem = {
 export type TItemProps = {
   data: TItem;
 };
+
+export type THandleProps = {
+    handleShowMore: () => void; 
+  }
