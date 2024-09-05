@@ -3,6 +3,7 @@ export type TItem = {
   deal_name: string;
   type: string;
   chain: string;
+  status?: string;
   cmc_rank: number;
   market_cap: string;
   volume: string;

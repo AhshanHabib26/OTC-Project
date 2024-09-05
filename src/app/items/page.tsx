@@ -8,9 +8,9 @@ const ItemsPage = () => {
   const datas = getAllData();
 
   return (
-    <div className="mt-5">
+    <div className="mt-10">
       <TopBar />
-      <div>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
         {datas.slice(0, 6).map((data: TItem) => (
           <ItemsCard key={data.id} data={data} />
         ))}

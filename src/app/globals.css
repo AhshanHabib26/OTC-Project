@@ -15,3 +15,11 @@ body {
   background-clip: text;
   color: transparent;
 }
+
+.gradient-border {
+  border: 2px solid;
+  border-image: linear-gradient(to left, #8e44ad, #c0392b) 1;
+}
+
+
+
